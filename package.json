@@ -1,0 +1,31 @@
+{
+  "name": "huobiETH",                                    // 名称 ，可能被 require()  函数调用
+  "version": "1.0.0",                                    // 版本
+  "description": "火币非官方API DEMO",                     // 描述
+  "main": "huobi_ETH_Demo.js",                           // 入口模块 ，被 require()  函数调用
+  "scripts": {                                           // key 是生命周期事件名  ， value 是 要执行的 命令
+    "test": "node test.js"
+  },
+  "repository": {                                        // git、svn  
+    "type": "git",
+    "url": ""                                            // 待填
+  },
+  "keywords": [                                          // 关键字    npm 搜索的时候 用到
+    "huobi",
+    "ETH",
+    "ETC",
+    "BotVS",
+  ],
+  "author": "LittleLittleDream",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": ""                                            // 待填
+  },
+  "homepage": "",                                        // 待填 README
+  "dependencies": {                                      // 参照项目 引用（未修改）
+    "bluebird": "^3.4.7",
+    "lodash": "^4.17.4",
+    "md5": "^2.2.1",
+    "request": "^2.79.0"
+  }
+}
